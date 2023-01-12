@@ -11,6 +11,15 @@ To use the CLI instead of the {ProjectWebUI}, see xref:cli-creating-an-organizat
 . In the *Label* field, enter a unique identifier for the organization.
 This is used for creating and mapping certain assets, such as directories for content storage.
 Use letters, numbers, underscores, and dashes, but no spaces.
+ifdef::satellite[]
+. Optional: If you do not wish to enable Simple Content Access (SCA), uncheck the *Simple Content Access* checkbox.
+For more information on SCA, see https://access.redhat.com/articles/simple-content-access[Simple Content Access].
++
+[NOTE]
+====
+We do not recommend disabling SCA as the entitlement mode is deprecated.
+====
+endif::[]
 . Optional: in the *Description* field, enter a description for the organization.
 . Click *Submit*.
 . If you have hosts with no organization assigned, select the hosts that you want to add to the organization, then click *Proceed to Edit*.
@@ -30,6 +39,15 @@ You can return to this page at any time by navigating to *Administer* > *Organiz
 --label "_My_Organization_Label_" \
 --description "_My_Organization_Description_"
 ----
+ifdef::satellite[]
++
+[NOTE]
+====
+Organizations created this way have Simple Content Access (SCA) enabled by default.
+If you wish to disable SCA, then add the `--simple-content-access false` parameter to the command.
+We do not advise you to disable SCA this since the entitlement mode (not using SCA) is deprecated.
+====
+endif::[]
 . Optional: To edit an organization, enter the `hammer organization update` command.
 For example, the following command assigns a compute resource to the organization:
 +
