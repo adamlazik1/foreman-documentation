@@ -21,7 +21,7 @@ Avoid the use of organizations if a lower level host grouping is applicable.
 Locations can be used to map the network infrastructure to prevent incorrect host placement or configuration.
 For example, you cannot assign a subnet, domain, or compute resources directly to a {SmartProxyServer}, only to a location.
 
-* *Host groups* – the main carriers of host definitions including assigned Puppet classes, Content View, or operating system.
+* *Host groups* – the main carriers of host definitions including assigned Puppet classes, content view, or operating system.
 It is recommended to configure the majority of settings at the host group level instead of defining hosts directly.
 Configuring a new host then largely becomes a matter of adding it to the right host group.
 As host groups can be nested, you can create a structure that best fits your requirements (see xref:sect-Architecture_Guide-Host_Group_Hierarchies[]).

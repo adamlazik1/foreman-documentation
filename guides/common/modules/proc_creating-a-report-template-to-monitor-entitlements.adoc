@@ -39,7 +39,7 @@ To view a list of variables you can use, click the *Help* tab and in the *Safe m
           'Name': host.name,
           'Organization': host.organization,
           'Lifecycle Environment': host.lifecycle_environment,
-          'Content View': host.content_view,
+          'content view': host.content_view,
           'Host Collections': host.host_collections,
           'Virtual': host.virtual,
           'Guest of Host': host.hypervisor_host,

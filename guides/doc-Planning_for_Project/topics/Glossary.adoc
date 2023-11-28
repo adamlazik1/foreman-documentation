@@ -92,7 +92,7 @@ Content is synchronized into the Library and then promoted into life cycle envir
 
 
 [[varl-Glossary_of_Terms-Content_View]]
-*Content View*:: A subset of Library content created by intelligent filtering.
+*content view*:: A subset of Library content created by intelligent filtering.
 Once a content view is published, it can be promoted through the life cycle environment path, or modified using incremental upgrades.
 
 
@@ -198,7 +198,7 @@ The host image only contains the boot files necessary to access the installation
 
 
 [[varl-Glossary_of_Terms-Incremental_Update]]
-*Incremental Upgrade (of a Content View)*:: The act of creating a new (minor) content view version in a life cycle environment.
+*Incremental Upgrade (of a content view)*:: The act of creating a new (minor) content view version in a life cycle environment.
 Incremental upgrades provide a way to make in-place modification of an already published content view.
 Useful for rapid updates, for example when applying security errata.
 
@@ -278,7 +278,7 @@ Products are either provided by Red{nbsp}Hat CDN or created by the {Project} adm
 
 
 [[varl-Glossary_of_Terms-Promote]]
-*Promote (a Content View)*:: The act of moving a content view from one life cycle environment to another.
+*Promote (a content view)*:: The act of moving a content view from one life cycle environment to another.
 
 
 [[varl-Glossary_of_Terms-Provisioning_Template]]
@@ -287,7 +287,7 @@ Provisioning templates can be associated with host groups, life cycle environmen
 
 
 [[varl-Glossary_of_Terms-Publish]]
-*Publish (a Content View)*:: The act of making a content view version available in a life cycle environment and usable by hosts.
+*Publish (a content view)*:: The act of making a content view version available in a life cycle environment and usable by hosts.
 
 
 [[varl-Glossary_of_Terms-Pulp]]

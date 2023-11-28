@@ -79,7 +79,7 @@ Consider using external databases if you plan to use your {Project} deployment f
 
 * Frequent remote execution tasks.
 This creates a high volume of records in PostgreSQL and generates heavy database workloads.
-* High disk I/O workloads from frequent repository synchronization or Content View publishing.
+* High disk I/O workloads from frequent repository synchronization or content view publishing.
 This causes {Project} to create a record in PostgreSQL for each job.
 * High volume of hosts.
 * High volume of synced content.
@@ -132,8 +132,8 @@ Such servers lie outside of the {Project} infrastructure, however, it is recomme
 === Content Life Cycle
 
 {Project} provides features for precise management of the content life cycle.
-A *life cycle environment* represents a stage in the content life cycle, a *Content View* is a filtered set of content, and can be considered as a defined subset of content.
-By associating Content Views with life cycle environments, you make content available to hosts in a defined way.
+A *life cycle environment* represents a stage in the content life cycle, a *content view* is a filtered set of content, and can be considered as a defined subset of content.
+By associating content views with life cycle environments, you make content available to hosts in a defined way.
 See xref:figu-Content_Life_Cycle_{context}[] for visualization of the process.
 For a detailed overview of the content management process see {ContentManagementDocURL}Importing_Custom_Content[Importing Custom Content] in _{ContentManagementDocTitle}_.
 The following section provides general scenarios for deploying content views as well as life cycle environments.

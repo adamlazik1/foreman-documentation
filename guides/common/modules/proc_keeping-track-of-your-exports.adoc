@@ -22,8 +22,8 @@ This option is available for all `content-export` operations.
 --version=1.0
 ----
 
-.Tracking Destinations of Content View Exports
-* Specify the destination server when exporting a Content View version:
+.Tracking Destinations of content view Exports
+* Specify the destination server when exporting a content view version:
 +
 [options="nowrap" subs="+quotes"]
 ----

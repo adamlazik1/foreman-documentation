@@ -56,8 +56,8 @@ For example, the OS build team can use a different organization than the web dev
 This enables host systems to pull content and configuration from {SmartProxyServers} in their location and not from the central {ProjectServer}.
 The recommended minimum number of {SmartProxyServers} is therefore given by the number of geographic regions where the organization that uses {Project} operates.
 +
-Using Content Views, you can specify the exact subset of content that {SmartProxyServer} makes available to hosts.
-See xref:figu-Content_Life_Cycle_{context}[] for a closer look at life cycle management with the use of Content Views.
+Using content views, you can specify the exact subset of content that {SmartProxyServer} makes available to hosts.
+See xref:figu-Content_Life_Cycle_{context}[] for a closer look at life cycle management with the use of content views.
 +
 The communication between managed hosts and {ProjectServer} is routed through {SmartProxyServer} that can also manage multiple services on behalf of hosts.
 Many of these services use dedicated network ports, but {SmartProxyServer} ensures that a single source IP address is used for all communications from the host to {ProjectServer}, which simplifies firewall administration.
@@ -83,23 +83,23 @@ image::life-cycle-satellite.png[Content Life Cycle in {ProjectName}]
 
 
 By default, each organization has a Library of content from external sources.
-Content Views are subsets of content from the Library created by intelligent filtering.
-You can publish and promote Content Views into life cycle environments (typically Dev, QA, and Production).
+Content views are subsets of content from the Library created by intelligent filtering.
+You can publish and promote content views into life cycle environments (typically Dev, QA, and Production).
 When creating a {SmartProxyServer}, you can choose which life cycle environments will be copied to that {SmartProxy} and made available to managed hosts.
 
-Content Views can be combined to create composite content views.
-It can be beneficial to have a separate Content View for a repository of packages required by an operating system and a separate one for a repository of packages required by an application.
-One advantage is that any updates to packages in one repository only requires republishing the relevant Content View.
-You can then use composite content views to combine published Content Views for ease of management.
+Content views can be combined to create composite content views.
+It can be beneficial to have a separate content view for a repository of packages required by an operating system and a separate one for a repository of packages required by an application.
+One advantage is that any updates to packages in one repository only requires republishing the relevant content view.
+You can then use composite content views to combine published content views for ease of management.
 
-Which Content Views should be promoted to which {SmartProxyServer} depends on the {SmartProxy}'s intended functionality.
+Which content views should be promoted to which {SmartProxyServer} depends on the {SmartProxy}'s intended functionality.
 Any {SmartProxyServer} can run DNS, DHCP, and TFTP as infrastructure services that can be supplemented, for example, with content or configuration services.
 
-You can update {SmartProxyServer} by creating a new version of a Content View using synchronized content from the Library.
-The new Content View version is then promoted through life cycle environments.
-You can also create in-place updates of Content Views.
-This means creating a minor version of the Content View in its current life cycle environment without promoting it from the Library.
-For example, if you need to apply a security erratum to a Content View used in Production, you can update the Content View directly without promoting to other life cycles.
+You can update {SmartProxyServer} by creating a new version of a content view using synchronized content from the Library.
+The new content view version is then promoted through life cycle environments.
+You can also create in-place updates of content views.
+This means creating a minor version of the content view in its current life cycle environment without promoting it from the Library.
+For example, if you need to apply a security erratum to a content view used in Production, you can update the content view directly without promoting to other life cycles.
 For more information on content management, see {ContentManagementDocURL}[_{ContentManagementDocTitle}_].
 
 [[sect-Architecture_System_Components]]
@@ -136,7 +136,7 @@ endif::[]
 
 [[varl-Architecture_System_Components-Pulp]]
 *Pulp*:: Pulp is a service within Katello that handles repository and content management.
-Pulp ensures efficient storage space by not duplicating RPM packages even when requested by Content Views in different organizations.
+Pulp ensures efficient storage space by not duplicating RPM packages even when requested by content views in different organizations.
 
 
 [[varl-Architecture_System_Components-Hammer]]

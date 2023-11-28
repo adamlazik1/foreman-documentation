@@ -1,11 +1,11 @@
 [id="Adding_Repositories_{context}"]
 = Adding Repositories
 
-Use the following procedure to add the upstream CentOS repositories to your Content view.
+Use the following procedure to add the upstream CentOS repositories to your content view.
 
 .Procedure
-. In the {ProjectWebUI}, navigate to *Content* > *Lifecycle* > *Content Views*.
-. Click *CentOS Content View*.
+. In the {ProjectWebUI}, navigate to *Content* > *Lifecycle* > *content views*.
+. Click *CentOS content view*.
 . Click the *Repositories* tab.
 . Select repositories that you want to add.
 . Click *Add Repositories*.

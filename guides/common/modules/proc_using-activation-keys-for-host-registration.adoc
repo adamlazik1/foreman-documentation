@@ -25,6 +25,6 @@ For example, the following command registers a content host to your organization
 .Settings Conflicts
 If there are conflicting settings in activation keys, the rightmost key takes precedence.
 
-* Settings that conflict: *Service Level*, *Release Version*, *Environment*, *Content View*, and *Product Content*.
+* Settings that conflict: *Service Level*, *Release Version*, *Environment*, *content view*, and *Product Content*.
 * Settings that do not conflict and the host gets the union of them: *Subscriptions* and *Host Collections*.
 * Settings that influence the behavior of the key itself and not the host configuration: *Content Host Limit* and *Auto-Attach*.
