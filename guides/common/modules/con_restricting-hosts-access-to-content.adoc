@@ -25,9 +25,9 @@ For more information about adding content overrides to hosts, see {ManagingHosts
 +
 For more information about adding content overrides to activation keys, see xref:enabling-and-disabling-repositories-on-activation-key_{context}[].
 
-Composite Content Views::
-You can use composite Content Views to combine and give hosts access to the content from multiple Content Views.
-For more information about composite Content Views, see xref:Creating_a_Composite_Content_View_{context}[].
+Composite content views::
+You can use composite content views to combine and give hosts access to the content from multiple Content Views.
+For more information about composite content views, see xref:Creating_a_Composite_Content_View_{context}[].
 
 Architecture and OS version restrictions::
 In custom products, you can set restrictions on the architecture and OS versions for `yum` repositories on which the product will be available.

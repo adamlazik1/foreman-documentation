@@ -32,7 +32,7 @@ Significant delay in Content View publication::
 {Project} examines every repository in a Content View for dependencies.
 Therefore, publish time increases with more repositories.
 +
-To mitigate this problem, use multiple Content Views with fewer repositories and combine them into composite Content Views.
+To mitigate this problem, use multiple Content Views with fewer repositories and combine them into composite content views.
 
 Ignored Content View filters on dependent packages::
 {Project} prioritizes resolving package dependencies over the rules in your filter.

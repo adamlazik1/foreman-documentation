@@ -8,5 +8,5 @@ Use the following procedure to create a Content View.
 . Click *Create content view*.
 . In the *Name* field, enter *CentOS Content View*.
 . In the *Description* field, enter a description for the content view.
-. Select *Content view* or *Composite content view* as the *Type*.
+. Select *Content view* or *composite content view* as the *Type*.
 . Click *Create content view*.

@@ -1,9 +1,9 @@
 [id="Composite_Content_Views_Overview_{context}"]
 = Composite Content Views Overview
 
-A Composite Content View combines the content from several Content Views.
+A composite content view combines the content from several Content Views.
 For example, you might have separate Content Views to manage an operating system and an application individually.
-You can use a Composite Content View to merge the contents of both Content Views into a new repository.
+You can use a composite content view to merge the contents of both Content Views into a new repository.
 The repositories for the original Content Views still exist but a new repository also exists for the combined content.
 
 If you want to develop an application that supports different database servers.
@@ -24,9 +24,9 @@ Example of four separate Content Views:
 * MariaDB (Database)
 * _example_software_ (Application)
 
-From the previous Content Views, you can create two Composite Content Views.
+From the previous Content Views, you can create two composite content views.
 
-Example Composite Content View for a PostgreSQL database:
+Example composite content view for a PostgreSQL database:
 
 |===
 | Composite Content View 1 {endash} _example_software_ on PostgreSQL
@@ -36,7 +36,7 @@ Example Composite Content View for a PostgreSQL database:
 | {RHEL} (Operating System)
 |===
 
-Example Composite Content View for a MariaDB:
+Example composite content view for a MariaDB:
 
 |===
 | Composite Content View 2 {endash} _example_software_ on MariaDB
@@ -47,9 +47,9 @@ Example Composite Content View for a MariaDB:
 |===
 
 Each Content View is then managed and published separately.
-When you create a version of the application, you publish a new version of the Composite Content Views.
-You can also select the *Auto Publish* option when creating a Composite Content View, and then the Composite Content View is automatically republished when a Content View it includes is republished.
+When you create a version of the application, you publish a new version of the composite content views.
+You can also select the *Auto Publish* option when creating a composite content view, and then the composite content view is automatically republished when a Content View it includes is republished.
 
 .Repository restrictions
-Docker repositories cannot be included more than once in a Composite Content View.
-For example, if you attempt to include two Content Views using the same docker repository in a Composite Content View, {ProjectServer} reports an error.
+Docker repositories cannot be included more than once in a composite content view.
+For example, if you attempt to include two Content Views using the same docker repository in a composite content view, {ProjectServer} reports an error.

@@ -51,5 +51,5 @@ If a repository is not associated with the Content View, the file `/etc/apt/sour
 endif::[]
 
 Hosts can only be associated with a single Content View.
-To associate a host with multiple Content Views, create a composite Content View.
+To associate a host with multiple Content Views, create a composite content view.
 For more information, see xref:Creating_a_Composite_Content_View_{context}[].

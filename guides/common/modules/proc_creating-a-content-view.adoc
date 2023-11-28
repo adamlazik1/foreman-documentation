@@ -15,7 +15,7 @@ For more information, see xref:Resolving_Package_Dependencies_{context}[].
 . In the *Name* field, enter a name for the view.
 {Project} automatically completes the *Label* field from the name you enter.
 . In the *Description* field, enter a description of the view.
-. In the *Type* field, select a *Content view* or a *Composite content view*.
+. In the *Type* field, select a *Content view* or a *composite content view*.
 . Optional: If you want to solve dependencies automatically every time you publish this Content View, select the *Solve dependencies* checkbox.
 Dependency solving slows the publishing time and might ignore any Content View filters you use.
 This can also cause errors when resolving dependencies for errata.

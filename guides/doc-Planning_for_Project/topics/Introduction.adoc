@@ -87,10 +87,10 @@ Content Views are subsets of content from the Library created by intelligent fil
 You can publish and promote Content Views into life cycle environments (typically Dev, QA, and Production).
 When creating a {SmartProxyServer}, you can choose which life cycle environments will be copied to that {SmartProxy} and made available to managed hosts.
 
-Content Views can be combined to create Composite Content Views.
+Content Views can be combined to create composite content views.
 It can be beneficial to have a separate Content View for a repository of packages required by an operating system and a separate one for a repository of packages required by an application.
 One advantage is that any updates to packages in one repository only requires republishing the relevant Content View.
-You can then use Composite Content Views to combine published Content Views for ease of management.
+You can then use composite content views to combine published Content Views for ease of management.
 
 Which Content Views should be promoted to which {SmartProxyServer} depends on the {SmartProxy}'s intended functionality.
 Any {SmartProxyServer} can run DNS, DHCP, and TFTP as infrastructure services that can be supplemented, for example, with content or configuration services.
